@@ -15,6 +15,6 @@ job('nodeapp-dsl') {
         """)
     }
     publishers {
-        mailer('gisselle.reynolds0@ethereal.email',true,true)
+        mailer('gisselle.reynolds0@ethereal.email',false,true)
     }
 }
