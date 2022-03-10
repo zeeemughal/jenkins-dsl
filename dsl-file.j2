@@ -9,7 +9,7 @@ job('nodeapp-dsl') {
     }
     steps {
         shell(""" 
-        echo ************ building docker *************
+        echo ************ building docker app *************
         docker-compose build
         docker-compose up -d
         """)
